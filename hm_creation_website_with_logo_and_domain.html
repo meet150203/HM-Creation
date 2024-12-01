@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HM Creation - Order & Contact</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+        }
+        header img {
+            width: 150px;
+            height: auto;
+            display: block;
+            margin: 0 auto 1em;
+        }
+        nav {
+            text-align: center;
+            margin: 1em 0;
+        }
+        nav a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 1em;
+        }
+        section {
+            padding: 2em;
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            margin-bottom: 2em;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em 0;
+        }
+        input, textarea, button {
+            width: 100%;
+            margin: 0.5em 0;
+            padding: 0.5em;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="HM_Creation_Logo.png" alt="HM Creation Logo" />
+        <h1>Welcome to HM Creation</h1>
+        <p>Your trusted brand for creativity and quality!</p>
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#order">Order Now</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="about">
+        <h2>About HM Creation</h2>
+        <p>Welcome to HM Creation, where innovation meets excellence. Explore our services and place your orders with ease!</p>
+    </section>
+
+    <section id="order">
+        <h2>Place Your Order</h2>
+        <form action="mailto:meetdhandhukia89@gmail.com" method="post" enctype="text/plain">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="product">Product/Service:</label>
+            <input type="text" id="product" name="product" required>
+            
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" required>
+            
+            <label for="address">Delivery Address:</label>
+            <textarea id="address" name="address" rows="3" required></textarea>
+            
+            <button type="submit">Submit Order</button>
+        </form>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Phone: <a href="tel:+918320469837">8320469837</a></p>
+        <p>Email: <a href="mailto:meetdhandhukia89@gmail.com">meetdhandhukia89@gmail.com</a></p>
+        <form action="mailto:meetdhandhukia89@gmail.com" method="post" enctype="text/plain">
+            <label for="message-name">Your Name:</label>
+            <input type="text" id="message-name" name="name" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 HM Creation. Website: <a href="http://www.meetcreation.com" target="_blank">www.meetcreation.com</a></p>
+    </footer>
+</body>
+</html>
